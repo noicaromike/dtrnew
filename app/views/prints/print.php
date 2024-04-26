@@ -14,6 +14,7 @@
 
   <div class="btn-container">
     <button class="form__btn" id="print">Print</button>
+    <a href="<?php echo URLROOT;?>" class="form__btn back">Back</a>
   </div>
   
 

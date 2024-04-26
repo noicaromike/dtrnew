@@ -111,6 +111,13 @@ body{
     cursor: pointer;
    
   }
+  .btn-container a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .btn-container a:hover{
+    color: #000;
+  }
   
   .form__btn:hover {
     color: var(--yellow-color);
