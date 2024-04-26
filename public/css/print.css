@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background: linear-gradient(to bottom, #ebf1eb, #45a049);
+}
+
+
+
+.card{
+    width: 100%;
+    max-width: 425px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    /* margin-top: 1rem; */
+}
+
+.img-holder img{
+    filter: grayscale(100%);
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: -8px;
+
+  }
+  .print-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  
+  }
+
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .center{
+    text-align: center;
+  }
+  .center p{
+    font-size: 13px;
+  }
+  .center h4{
+    font-size: 15px;
+  }
+  .space-round{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.card-container{
+  width: 100%;
+}
+
+  .dtr{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .th-head{
+    display: none;
+  }
+  .td-class{
+    display: grid;
+    grid-template-columns: 15ch auto;
+    gap: 15px;
+    padding: 3px;
+    
+  }
+  .td-class::before{
+    content: attr(data-cell)': ';
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .tbl-class{
+    margin-bottom: 5px;
+  }
+  .align-text-center h3{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .form__btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 10px 16px;
+    border: none;
+    background: #006eff;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    
+    width: 425px;
+    margin-top: 1rem;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+   
+  }
+  
+  .form__btn:hover {
+    color: var(--yellow-color);
+    transform: scale(0.99);
+  }
+
+  @media print{
+    #print{
+        display: none;
+    }
+    body{
+      margin: 0;
+    }
+    .print-container{
+        margin-top: 0;
+    }
+    .dtr{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .breaker{
+      page-break-before: always; /* Force each card to start on a new page */
+    }
+    
+  }
