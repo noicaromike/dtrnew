@@ -124,6 +124,28 @@ body{
     transform: scale(0.99);
   }
 
+
+.signature{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_input{
+  border: none;
+  outline: none;
+  background: #fff;
+  border-bottom: 1px solid #000;
+  margin-top: 1rem;
+}
+.wrap p {
+  text-align: center;
+  padding: 0.813rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
   @media print{
     #print{
         display: none;

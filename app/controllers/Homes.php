@@ -41,14 +41,14 @@ class Homes extends Controller
             }
 
             // Check if both start date and end date are within the same 15-day period
-            if ($data['startDate'] && $data['endDate']) {
-                $startDay = (int)date('d', strtotime($data['startDate']));
-                $endDay = (int)date('d', strtotime($data['endDate']));
+            // if ($data['startDate'] && $data['endDate']) {
+            //     $startDay = (int)date('d', strtotime($data['startDate']));
+            //     $endDay = (int)date('d', strtotime($data['endDate']));
 
-                if (($startDay <= 15 && $endDay > 15) || ($startDay > 15 && $endDay <= 15)) {
-                    $data['startDateError'] = 'Start and end dates must be within the same 15-day period.';
-                }
-            }
+            //     // if (($startDay <= 15 && $endDay > 15) || ($startDay > 15 && $endDay <= 15)) {
+            //     //     $data['startDateError'] = 'Start and end dates must be within the same 15-day period.';
+            //     // }
+            // }
 
             if ($data['startDate'] > $data['endDate']) {
                 $data['startDateError'] = 'Start date must be before end date.';

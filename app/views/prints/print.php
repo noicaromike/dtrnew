@@ -999,7 +999,16 @@
           <!-- Repeat for other rows -->
         </table>
         <div class="sometext">
-          
+                <div class="signature">
+                    <div class="wrap">
+                        <input type="text" class="form_input">
+                        <p>Department Head</p>
+                    </div>
+                    <div class="wrap">
+                        <input type="text" class="form_input">
+                        <p>Employee Signature</p>
+                    </div>
+                </div>
         </div>
 
       </div>
