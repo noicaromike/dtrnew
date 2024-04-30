@@ -76,9 +76,16 @@
 
 
         </div>
+
     </div>
 
-    
+    <div class="about">
+        <a href="<?php echo URLROOT;?>/abouts/about" class="about-page">About page</a>
+    </div>
+
+    <footer>
+        <p>© 2024 Doctor's Biometric System by Michael F. Oracion & Christian James A. Tabiola & John Levi R. Oroc</p>
+    </footer>
     <script src="<?php echo URLROOT; ?>/public/javascript/datatable.js"></script>
     <script src="<?php echo URLROOT; ?>/public/javascript/datatablecdn.js"></script>
     <script src="<?php echo URLROOT; ?>/public/javascript/script.js"></script>
