@@ -18,7 +18,7 @@
   </div>
   
 
-  
+    
     <?php foreach($data['dtr'] as $userID => $userData):?>
         
         
@@ -1020,7 +1020,8 @@
     <div class="breaker"></div>
 
     <?php endforeach;?>
-  
+   
+    
 
 
 

@@ -11,6 +11,9 @@ body{
     grid-template-columns: 1fr;
     place-items: center;
     background: linear-gradient(to bottom, #ebf1eb, #45a049);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -36,6 +39,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 0 2rem;
   
   }
 

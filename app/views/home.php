@@ -30,9 +30,9 @@
                         <div class="form-date">
                             <button type="submit" class="form__btn">Print preview</button>
                             <label class="date-label" for="">Start Date</label>
-                            <input type="date" name="startDate" value="" class="form__input">
+                            <input type="date" name="startDate" value="<?php echo $data['startDate'];?>" class="form__input">
                             <label class="date-label" for="">End Date</label>
-                            <input type="date" name="endDate" value="" class="form__input">
+                            <input type="date" name="endDate" value="<?php echo $data['endDate'];?>" class="form__input">
                         </div>
                         <div class="form-btn-container">
 

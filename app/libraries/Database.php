@@ -14,6 +14,8 @@ class Database
     {
 
         $newConn = 'C:\\Users\\itd\Desktop\\ATT\\ATT2000.MDB';
+        // $newConn = 'C:ATT\\ATT2000.MDB';
+
         // $newConn = 'C:\Users\noicaromike\Desktop\ATT\ATT2000.MDB';
         $conn = 'mysql:host=' . $this->dbHost . ';dbname=' . $this->dbName;
 
