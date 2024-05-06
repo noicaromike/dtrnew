@@ -151,7 +151,7 @@ body{
 
 
   @media print{
-    #print{
+    #print,.back{
         display: none;
     }
     body{

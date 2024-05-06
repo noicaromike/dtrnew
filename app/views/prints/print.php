@@ -90,9 +90,8 @@
                     if(formatDateToDay($data['startDate']) == 16){
                         $in = strtotime(isset($userData['checkInOutTimes']['16']['in'])? $userData['checkInOutTimes']['16']['in']:'');
                         $out = strtotime(isset($userData['checkInOutTimes']['16']['out'])? $userData['checkInOutTimes']['16']['out']:'');
-                    }
-                    $in_period = '';
-                    $out_period = '';
+                        $in_period = '';
+                        $out_period = '';
                     if ($in) {
                         if (date('a', $in) == 'am') {
                             $in_period = 'morning';
@@ -112,6 +111,8 @@
                               $out_period = 'evening';
                           }
                       }
+                    }
+                    
             
             ?>
                 <th>16</th>
