@@ -9,7 +9,7 @@ define('DB_NAME', 'biometrics'); //Add your DB Name
 define('APPROOT', dirname(dirname(__FILE__)));
 
 //URLROOT (Dynamic links)
-define('URLROOT', 'http://localhost/doctors-biometrics');
+define('URLROOT', 'http://192.168.101.9/doctors-biometrics');
 
 //Sitename
 define('SITENAME', 'Doctor\'s Biometric');
